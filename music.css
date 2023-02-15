@@ -241,6 +241,32 @@ img{
     margin: 7px 0px 7px 0px;
 }
 
+@media screen and (min-width: 768px) and (max-width:1023px){
+    .sub-main{
+        white-space: nowrap;/*Doesnt allow divs to wrap when the page is reduced*/
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-right: 30px;
+        padding: 10px 10px;
+        margin-bottom: 3px;
+        position: relative;
+    }
+        
+} 
+
+@media screen and (min-width: 0px) and (max-width:767px){
+    .sub-main{
+        white-space: nowrap;/*Doesnt allow divs to wrap when the page is reduced*/
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-right: 30px;
+        padding: 10px 10px;
+        margin-bottom: 3px;
+        position: relative;
+    }
+}
 
 
 .up .first{
