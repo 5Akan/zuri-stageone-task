@@ -36,13 +36,14 @@ span{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: blue;
     font-family: digital-clock-font;
 }
-p{
+#milliseconds{
     margin: 1rem;
     font-size: 3rem;
     font-weight: 500;
+    color: white;
+
 }
 img{
     align-items: center;
